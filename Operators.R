@@ -30,3 +30,27 @@ r2 = a & b
 r2
 
 
+## %in% içinde var mı
+## : sayı dizisi oluşturur
+## %*% matris çarpımı yapar
+
+x = 1:6
+y = 7:12
+z = 5
+t = 5:10
+
+m1 <- matrix(data = x, nrow = 2, ncol = 3)
+m2 <- matrix(data = y, nrow = 3, ncol = 2)
+m = m1 %*% m2 # matris çarpımı için bir matrisin sütün sayısı diğerinin satır sayıssına eşit olmalıdır
+m
+
+
+z %in% x
+
+x %in% t
+#gördüğün gibiğ bu içinde var mı kontrolu disi içnde yapılabilir. x in elemanları t nin içinde var mı tek tek bkar xin olan elemanları iöin true olmayan elemnalrı için false döndürür
+
+for (itr in 1:20)
+  if (itr %% 2 == 0)
+    if (itr %% 5 == 0)
+      print(itr)
