@@ -38,3 +38,14 @@ sin(1.570796)
 2 ** 12345
 - 2 ** 12345
 0 / 0
+
+
+#elindeki değişkenleri yazdırmak için ls() ve objects() fonksiyonları kullanılabilir.
+#silmek içinde rm() ve remove()
+m = 30
+g = 24
+s = 90
+objects()
+rm(m)
+remove(s)
+ls()
