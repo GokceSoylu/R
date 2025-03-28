@@ -30,3 +30,6 @@ factorial(5)
 #signif(x, digits= ) soldan istediğimiz kadar rakam bırakır
 round(pi, 5)
 signif(12345.123456789, 6)
+#todo ayrıca trigonometrik arkaşlarda mevcut
+asin(1)
+sin(1.570796)
