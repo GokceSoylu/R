@@ -33,3 +33,8 @@ signif(12345.123456789, 6)
 #todo ayrıca trigonometrik arkaşlarda mevcut
 asin(1)
 sin(1.570796)
+#bir iki tane de anlmasız ifadeyi açıklayalım
+#Inf = infitiy -Inf=eksi sonsuz NaN not a number
+2 ** 12345
+- 2 ** 12345
+0 / 0
