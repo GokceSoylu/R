@@ -1,6 +1,6 @@
 # Veriyi okuma
 library(readr)
-data <- read_delim("DatasetNA.txt", delim = " ", col_names = TRUE)
+data <- read_delim("Project/DatasetNA.txt", delim = " ", col_names = TRUE)
 
 # Eksik değerleri kontrol etme
 print(colSums(is.na(data)))
